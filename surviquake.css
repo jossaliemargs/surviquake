@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#navigation{
+    
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    
+}
+
+#navbarNavAltMarkup{
+    justify-content: right;
+}
+.navbar-nav a:hover{
+    background-image: url(crack.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    
+}
+#developer-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#dl-btn{
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 250px;
+}
+#about-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#contact-bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#title-page{
+    font-size: 30px;
+    font-weight: bold;
+}

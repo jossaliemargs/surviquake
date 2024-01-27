@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+        body {
+            background-color: black;
+        }
+      .item1 {
+        grid-area: header;
+      }
+
+      .item2 {
+        grid-area: menu;
+      }
+
+      .item3 {
+        grid-area: main;
+      }
+
+      .item4 {
+        grid-area: right;
+      }
+
+      .item5 {
+        grid-area: footer;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-rows: 80px 200px; 
+
+        grid-template-areas:
+          "header header header header header header"
+          "menu main main main right right"
+          "menu footer footer footer footer footer";
+
+        gap: 10px;
+
+        background-color: white;
+
+        padding: 10px;
+      }
+
+      .grid-container > div {
+  background-color: rgba(red, green, blue, alpha);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+      .item1 {
+     
+         background-color: red; color: white; 
+
+      }
+      .item2 {
+       
+     background-color: rgb(131, 117, 141);
+     color: black;
+     
+   }
+   .item3 {
+     
+     background-color: skyblue;
+     color: white;
+   }
+   .item4 {
+     
+     background-color: skyblue;
+     color: white;
+   }
+   .item5 {
+     
+     background-color: green;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: small;
+   }
+    </style>
+  </head>
+
+  <body>
+    <h1><center><p style = "color: white;";> MAKE-UP INSPO</center></h1></p>
+
+    <div class="grid-container">
+       
+        
+      <div class="item1"><marquee>LATEST NEWS !!!!!!!! LATEST NEWS !!!!!!! LATEST NEWS !!!!! LATEST NEWS !!!!! LATEST NEWS !!!! LATEST NEWS !!!! <br> </marquee></div>
+
+     <div class="item2"><a href="https://www.billboard.com/pro/chris-brown-under-influence-hits-rb-hip-hop-songs-chart-top-10/#!"><img src="A.jpg" alt="Paris"; height="100px"; width="100px"><center> CHRIS BROWN'S <br> NEW SONGS <br> <br>  WENT VIRAL</center></a></div>
+   
+      <div class="item3"><a href="https://www.britannica.com/biography/Chris-Brown"</a> <img src="c.jpg" alt="Paris"; height="100px"; width="200px"><center> Chris Breezy</center></div>
+
+      <div class="item4"> <a href="https://genius.com/albums/Chris-brown/Heartbreak-on-a-full-moon"</a> <img src="b.jpg" alt="Paris"; height="100px"; width="100px"><center> Greatest Album</center> </div>
+
+      <div class="item5"><p style = "background-color: green;"  <h1> GET TICKETS NOW!</h1> <br> <br> <i>  Chris Brown Tour Schedule - 2019 INDIGOAT Tour Dates. Tue Aug 20 - Portland, OR @ Moda Center. Wed Aug 21 - Tacoma, WA @ Tacoma Dome. Fri Aug 23 - Salt Lake City, UT @ Vivint Smart Home Arena. Sat Aug 24 - Denver, CO @ Pepsi Center. Mon Aug 26 - Oklahoma City, OK @ Chesapeake Energy Arena. Wed Aug 28 - New Orleans, LA @ Smoothie King Center.</i>
+        <a href="https://www.ticketmaster.com/chris-brown-tickets/artist/1013849"</a></p></div>
+    </div>
+  </body>
